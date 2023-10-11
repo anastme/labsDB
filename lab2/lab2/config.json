@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=LAPTOP-562FH66U\\SQLEXPRESS;Database=PaymentOfUtilities;Trusted_Connection=True;Connect Timeout=30;TrustServerCertificate=True;"
+  }
+}

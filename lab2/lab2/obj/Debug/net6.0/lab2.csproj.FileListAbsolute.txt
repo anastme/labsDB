@@ -1,0 +1,158 @@
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\lab2.exe
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\lab2.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Humanizer.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CopyComplete
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\ConsoleTables.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\lab2.exe
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\lab2.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Azure.Core.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Azure.Identity.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\ConsoleTables.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Humanizer.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.CodeDom.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Memory.Data.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Text.Json.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.csproj.AssemblyReference.cache
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CopyComplete
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+D:\UCHEBA\3kurs\РПБДИС\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll
