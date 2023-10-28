@@ -1,1 +1,0 @@
-Scaffold-DbContext "Server=(localdb)\mssqllocaldb;Database=PaymentOfUtilities;Trusted_Connection=True;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context UtilitiesContext -Force
