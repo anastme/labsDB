@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Indication>
+<div>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Дата</th>
+            <th>Объем</th>
+            <th>Номер квартиры</th>
+            <th>ФИО владельца</th>
+            <th>Тип платежа</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Date.ToShortDateString()</td>
+                <td>@item.Volume</td>
+                <td>@item.ApartmentId</td>
+                <td>@item.Apartment.FirstName @item.Apartment.LastName @item.Apartment.MiddleName</td>
+                <td>@item.Counter.PaymentType.Name</td>
+            </tr>
+        }
+    </table>
+</div>

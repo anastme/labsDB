@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Apartment>
+<div>
+    <table class="table">
+        <tr>
+            <th>Номер</th>
+            <th>ФИО владельца</th>
+            <th>Кол-во проживающих</th>
+            <th>Площадь</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName @item.LastName @item.MiddleName</td>
+                <td>@item.HumanCount</td>
+                <td>@item.Square</td>
+            </tr>
+        }
+    </table>
+</div>
