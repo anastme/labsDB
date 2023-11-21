@@ -1,0 +1,150 @@
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\appsettings.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\lab4.staticwebassets.runtime.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\lab4.exe
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\lab4.deps.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\lab4.runtimeconfig.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\lab4.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\lab4.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Humanizer.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.RazorAssemblyInfo.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.RazorAssemblyInfo.cs
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.lab4.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.build.lab4.props
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab4.props
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab4.props
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\scopedcss\bundle\lab4.styles.css
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\scopedcss\projectbundle\lab4.bundle.scp.css
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.csproj.CopyComplete
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\refint\lab4.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.pdb
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\lab4.genruntimeconfig.cache
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\obj\Debug\net7.0\ref\lab4.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\vladi\OneDrive\Рабочий стол\Курсачи\Анастасия Рожина\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\appsettings.Development.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\appsettings.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\lab4.staticwebassets.runtime.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\lab4.exe
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\lab4.deps.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\lab4.runtimeconfig.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\lab4.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\lab4.pdb
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Azure.Core.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Azure.Identity.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Humanizer.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.CodeDom.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.Memory.Data.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.csproj.AssemblyReference.cache
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.AssemblyInfoInputs.cache
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.AssemblyInfo.cs
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.csproj.CoreCompileInputs.cache
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.MvcApplicationPartsAssemblyInfo.cache
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.RazorAssemblyInfo.cache
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.RazorAssemblyInfo.cs
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.lab4.Microsoft.AspNetCore.StaticWebAssets.props
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.build.lab4.props
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.lab4.props
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.lab4.props
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets.pack.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets.build.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\staticwebassets.development.json
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\scopedcss\bundle\lab4.styles.css
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\scopedcss\projectbundle\lab4.bundle.scp.css
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.csproj.CopyComplete
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\refint\lab4.dll
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.pdb
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\lab4.genruntimeconfig.cache
+D:\UCHEBA\3kurs\РПБДИС\lab4new\lab4\lab4\lab4\obj\Debug\net7.0\ref\lab4.dll
