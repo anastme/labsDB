@@ -1,0 +1,14 @@
+﻿@using lab5.EF;
+@model PaymentType;
+@using (Html.BeginForm("Update", "PaymentType", FormMethod.Post))
+{
+    <input type="number" name="Id" value="@Model.Id" hidden />
+    <h3>Обновление инфорамции типа платежа</h3>
+    <div class="mb-3">
+        <label class="form-label" for="nameInput">Название:</label><br />
+        <input type="text" name="Name" value="@Model.Name" class="form-control" id="nameInput" required />
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Обновить" class="btn btn-dark" />
+    </div>
+}

@@ -1,0 +1,112 @@
+﻿@using lab5.Models.ApartmentModels;
+@model ApartmentIndexModel
+<div>
+    <h2>Список квартир</h2>
+    <h2>@Html.ActionLink("добавить", "CreateView", "Apartment", null, new { @class="btn btn-sm btn-dark" })</h2>
+    
+    <form method="get">
+        <label>Имя: </label>
+        <input name="firstName" value="@Model.FilterModel.FirstName" />
+
+        <label>Фамилия: </label>
+        <input name="lastName" value="@Model.FilterModel.LastName" />
+
+        <label>Отчество: </label>
+        <input name="middleName" value="@Model.FilterModel.MiddleName" />
+
+        <input type="submit" value="Фильтровать" class="btn btn-outline-dark" />
+    </form>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                @Html.ActionLink("Id", "Index", "Apartment", new {
+                firstName=Model.FilterModel.FirstName,
+                lastName=Model.FilterModel.LastName,
+                middleName=Model.FilterModel.MiddleName,
+                sortType=Model.SortType == "id_asc" ? "id_desc" : "id_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Имя", "Index", "Apartment", new {
+                firstName=Model.FilterModel.FirstName,
+                lastName=Model.FilterModel.LastName,
+                middleName=Model.FilterModel.MiddleName,
+                sortType=Model.SortType == "firstname_asc" ? "firstname_desc" : "firstname_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Фамилия", "Index", "Apartment", new {
+                firstName=Model.FilterModel.FirstName,
+                lastName=Model.FilterModel.LastName,
+                middleName=Model.FilterModel.MiddleName,
+                sortType=Model.SortType == "lastname_asc" ? "lastname_desc" : "lastname_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Отчество", "Index", "Apartment", new {
+                firstName=Model.FilterModel.FirstName,
+                lastName=Model.FilterModel.LastName,
+                middleName=Model.FilterModel.MiddleName,
+                sortType=Model.SortType == "middlename_asc" ? "middlename_desc" : "middlename_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Площадь", "Index", "Apartment", new {
+                firstName=Model.FilterModel.FirstName,
+                lastName=Model.FilterModel.LastName,
+                middleName=Model.FilterModel.MiddleName,
+                sortType=Model.SortType == "square_asc" ? "square_desc" : "square_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Кол-во проживающих людей", "Index", "Apartment", new {
+                firstName=Model.FilterModel.FirstName,
+                lastName=Model.FilterModel.LastName,
+                middleName=Model.FilterModel.MiddleName,
+                sortType=Model.SortType == "humancount_asc" ? "humancount_desc" : "humancount_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.Apartments)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.MiddleName</td>
+                <td>@item.Square</td>
+                <td>@item.HumanCount</td>
+                <td>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="btn-group">
+                            @Html.ActionLink("изменить", "UpdateView", "Apartment", new { id=item.Id }, new { @class="btn btn-primary" })
+                            @Html.ActionLink("удалить", "Delete", "Apartment", new { id=item.Id }, new { @class="btn btn-danger" })
+                        </div>
+                    }
+                </td>
+            </tr>
+        }
+    </table>
+    @if (Model.PaginationModel.HasPreviousPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PaginationModel.PageNumber - 1)"
+           asp-route-sortType="@Model.SortType"
+           class="btn btn-outline-dark">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Назад
+        </a>
+    }
+    @if (Model.PaginationModel.HasNextPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PaginationModel.PageNumber + 1)"
+           asp-route-sortType="@Model.SortType"
+           class="btn btn-outline-dark">
+            Вперед
+            <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    }
+</div>

@@ -1,0 +1,19 @@
+﻿@using lab5.Models.IndicationModels;
+@model IndicationUpdateViewModel
+@using (Html.BeginForm("Update", "Indication", FormMethod.Post))
+{
+    <input name="Id" value="@Model.Indication.Id" hidden />
+    <input name="Date" type="date" value="@Model.Indication.Date.ToString("yyyy-MM-dd")" hidden />
+    <h3>Добавление показания</h3>
+    <div class="mb-3">
+        <label class="form-label" for="volumeInput">Объем:</label><br />
+        <input type="number" name="Volume" value="@Model.Indication.Volume" class="form-control" id="volumeInput" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="apartmentInput">Номер квартиры:</label><br />
+        @Html.DropDownList("ApartmentId", new SelectList(Model.Apartments, "Id",  "Id", Model.Indication.ApartmentId), null, new { id="apartmentInput", @class="form-select"})
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Обновить" class="btn btn-dark" />
+    </div>
+}

@@ -1,0 +1,30 @@
+﻿﻿@{
+    ViewData["Title"] = "Добавление квартиры";
+}
+@using (Html.BeginForm("Create", "Apartment", FormMethod.Post))
+{
+    <h3>Добавление квартиры</h3>
+    <div class="mb-3">
+        <label class="form-label" for="nameInput">Имя:</label>
+        <input type="text" name="FirstName" id="nameInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="lastNameInput">Фамилия:</label>
+        <input type="text" name="LastName" id="lastNameInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="middleNameInput">Отчество:</label>
+        <input type="text" name="MiddleName" id="middleNameInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="humanCountInput">Кол-во жителей:</label><br />
+        <input type="number" min="1" max="10" name="HumanCount" id="humanCountInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="squareInput">Площадь:</label><br />
+        <input type="number" min="15" max="150" name="Square" id="squareInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Добавить" class="btn btn-dark" />
+    </div>
+}

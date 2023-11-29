@@ -1,0 +1,13 @@
+﻿@using lab5.EF;
+@model PaymentType;
+@using (Html.BeginForm("Create", "PaymentType", FormMethod.Post))
+{
+    <h3>Добавление типа платежа</h3>
+    <div class="mb-3">
+        <label class="form-label" for="nameInput">Название:</label>
+        <input type="text" name="Name" class="form-control" id="nameInput" />
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Добавить" class="btn btn-dark" />
+    </div>
+}

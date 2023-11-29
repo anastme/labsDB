@@ -1,0 +1,58 @@
+﻿@using lab5.Models.PaymentTypeModels;
+@model PaymentTypeIndexModel
+<div>
+    <h3>Список типов платежей</h3>
+    <h2>@Html.ActionLink("добавить", "CreateView", "PaymentType", null, new { @class="btn btn-sm btn-dark" })</h2>
+
+    <form method="get">
+        <label>Название: </label>
+        <input type="text" name="name" value="@Model.FilterModel.Name" />
+
+        <input type="submit" value="Фильтровать" class="btn btn-outline-dark" />
+    </form>
+    <table class="table table-striped">
+        <tr>
+            <th>Id</th>
+            <th>
+                @Html.ActionLink("Название", "Index", "PaymentType", new {
+                name=Model.FilterModel.Name,
+                sortType=Model.SortType == "name_asc" ? "name_desc" : "name_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.PaymentTypes)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>
+                    <div class="btn-group">
+                        @Html.ActionLink("изменить", "UpdateView", "PaymentType", new { id=item.Id }, new { @class="btn btn-primary" })
+                        @Html.ActionLink("удалить", "Delete", "PaymentType", new { id=item.Id }, new { @class="btn btn-danger" })
+                    </div>
+                </td>
+            </tr>
+        }
+    </table>
+    @if (Model.PaginationModel.HasPreviousPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PaginationModel.PageNumber - 1)"
+           asp-route-sortType="@Model.SortType"
+           class="btn btn-outline-dark">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Назад
+        </a>
+    }
+    @if (Model.PaginationModel.HasNextPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PaginationModel.PageNumber + 1)"
+           asp-route-sortType="@Model.SortType"
+           class="btn btn-outline-dark">
+            Вперед
+            <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    }
+</div>

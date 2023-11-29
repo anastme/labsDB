@@ -1,0 +1,32 @@
+﻿@using lab5.EF;
+@{
+    ViewData["Title"] = "Обновление информации о квартире";
+}
+@model Apartment
+@using (Html.BeginForm("Update", "Apartment", FormMethod.Post))
+{
+    <h3>Обновление информации о квартире</h3>
+    <div class="mb-3">
+        <label class="form-label" for="nameInput">Имя:</label><br />
+        <input type="text" name="FirstName" value="@Model.FirstName" id="nameInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="lastNameInput">Фамилия:</label><br />
+        <input type="text" name="LastName" value="@Model.LastName" id="lastNameInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="middleNameInput">Отчество:</label><br />
+        <input type="text" name="MiddleName" value="@Model.MiddleName" id="middleNameInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="humanCountInput">Кол-во жителей:</label><br />
+        <input type="number" min="1" max="10" name="HumanCount" value="@Model.HumanCount" id="humanCountInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="squareInput">Площадь:</label><br />
+        <input type="number" min="15" max="150" name="Square" value="@Model.Square" id="squareInput" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <input type="submit" value="Обновить" class="btn btn-dark" />
+    </div>
+}

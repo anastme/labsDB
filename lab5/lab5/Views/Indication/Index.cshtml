@@ -1,0 +1,82 @@
+﻿@using lab5.Models.IndicationModels;
+@model IndicationIndexModel
+<div>
+    <h3>Список показаний</h3>
+    <form method="get">
+        <label>Минимальный объем: </label>
+        <input type="number" min="0" name="minVolume" value="@Model.FilterModel.MinVolume" />
+
+        <label>Максимальный объем: </label>
+        <input type="number" min="0" name="maxVolume" value="@Model.FilterModel.MaxVolume" />
+
+        <input type="submit" value="Фильтровать" class="btn btn-outline-dark" />
+    </form>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                @Html.ActionLink("Номер квартиры", "Index", "Indication", new {
+                minVolume=Model.FilterModel.MinVolume,
+                maxVolume=Model.FilterModel.MaxVolume,
+                sortType=Model.SortType == "apartment_asc" ? "apartment_desc" : "apartment_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Дата", "Index", "Indication", new {
+                minVolume=Model.FilterModel.MinVolume,
+                maxVolume=Model.FilterModel.MaxVolume,
+                sortType=Model.SortType == "date_asc" ? "date_desc" : "date_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Объем", "Index", "Indication", new {
+                minVolume=Model.FilterModel.MinVolume,
+                maxVolume=Model.FilterModel.MaxVolume,
+                sortType=Model.SortType == "volume_asc" ? "volume_desc" : "volume_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th>
+                @Html.ActionLink("Тип платежа", "Index", "Indication", new {
+                minVolume=Model.FilterModel.MinVolume,
+                maxVolume=Model.FilterModel.MaxVolume,
+                sortType=Model.SortType == "paymenttype_asc" ? "paymenttype_desc" : "paymenttype_asc",
+                }, new { @class="btn btn-sm" })
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model.Indications)
+        {
+            <tr>
+                <td>@item.ApartmentId</td>
+                <td>@item.Date.ToShortDateString()</td>
+                <td>@item.Volume</td>
+                <td>@item.Counter.PaymentType.Name</td>
+                <td>
+                    <div class="btn-group">
+                        @Html.ActionLink("изменить", "UpdateView", "Indication", new { id=item.Id }, new { @class="btn btn-primary" })
+                        @Html.ActionLink("удалить", "Delete", "Indication", new { id=item.Id }, new { @class="btn btn-danger" })
+                    </div>
+                </td>
+            </tr>
+        }
+    </table>
+    @if (Model.PaginationModel.HasPreviousPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PaginationModel.PageNumber - 1)"
+           asp-route-sortType="@Model.SortType"
+           class="btn btn-outline-dark">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Назад
+        </a>
+    }
+    @if (Model.PaginationModel.HasNextPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PaginationModel.PageNumber + 1)"
+           asp-route-sortType="@Model.SortType"
+           class="btn btn-outline-dark">
+            Вперед
+            <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+    }
+</div>
