@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SXh1Vy8k5UrFraXitmh0I2DWFqIjvxtg/coacJtR1cE=",
+  "Hash": "jVSZBQXtPxQx9x6gDwbqszu5jyHsg2cXHw/8xOO9Beg=",
   "Source": "lab6",
   "BasePath": "_content/lab6",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "lab6\\wwwroot",
       "Source": "lab6",
-      "ContentRoot": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\Курсачи\\Анастасия Рожина\\lab6\\lab6\\wwwroot\\",
+      "ContentRoot": "D:\\UCHEBA\\3kurs\\РПБДИС\\lab6\\lab6\\lab6\\wwwroot\\",
       "BasePath": "_content/lab6",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\Курсачи\\Анастасия Рожина\\lab6\\lab6\\wwwroot\\index.html",
+      "Identity": "D:\\UCHEBA\\3kurs\\РПБДИС\\lab6\\lab6\\lab6\\wwwroot\\index.html",
       "SourceId": "lab6",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\vladi\\OneDrive\\Рабочий стол\\Курсачи\\Анастасия Рожина\\lab6\\lab6\\wwwroot\\",
+      "ContentRoot": "D:\\UCHEBA\\3kurs\\РПБДИС\\lab6\\lab6\\lab6\\wwwroot\\",
       "BasePath": "_content/lab6",
       "RelativePath": "index.html",
       "AssetKind": "All",
