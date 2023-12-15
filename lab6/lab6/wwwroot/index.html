@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Список квартир</h2>
+    <form name="apartmentForm">
+        <input type="hidden" name="Id" value="0" />
+        <div class="form-group col-md-5">
+            <label for="FirstName">Имя:</label>
+            <input class="form-control" name="FirstName" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="LastName">Фамилия:</label>
+            <input class="form-control" name="LastName" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="MiddleName">Отчество:</label>
+            <input class="form-control" name="MiddleName" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="Square">Площадь:</label>
+            <input class="form-control" name="Square" type="number" min=18/>
+        </div>
+        <div class="form-group col-md-5">
+            <label for="HumanCount">Кол-во проживающих людей:</label>
+            <input class="form-control" name="HumanCount" type="number" min="1"/>
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Сохранить</button>
+            <a id="reset" class="btn btn-primary">Очистить</a>
+        </div>
+    </form>
+    <table class="table table-condensed table-striped  col-md-6">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Отчество</th>
+                <th>Площадь</th>
+                <th>Кол-во проживающих</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div>2023 © web api lab</div>
+    <script> 
+        
+        // Получение всех квартир
+        async function GetApartments() {
+            // отправляет запрос и получаем ответ
+            const response = await fetch("/api/Apartment", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            // если запрос прошел нормально
+            if (response.ok === true) {
+                // получаем данные
+                const apartments = await response.json();
+                let rows = document.querySelector("tbody");
+                apartments.forEach(e => {
+                    // добавляем полученные элементы в таблицу
+                    rows.append(row(e));
+                });
+            }
+        }
+        // Получение одной квартиры
+        async function GetApartment(id) {
+            const response = await fetch("/api/Apartment/" + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const apartment = await response.json();
+                console.log(apartment)
+                const form = document.forms["apartmentForm"];
+                form.elements["Id"].value = apartment.id;
+                form.elements["FirstName"].value = apartment.firstName;
+                form.elements["LastName"].value = apartment.lastName;
+                form.elements["MiddleName"].value = apartment.middleName;
+                form.elements["Square"].value = apartment.square;
+                form.elements["HumanCount"].value = apartment.humanCount;
+            }
+        }
+
+        // Добавление пользователя
+        async function CreateApartment(firstName, lastName, middleName, square, humanCount) {
+            console.log(firstName)
+            console.log(lastName)
+            console.log(middleName)
+            console.log(square)
+            console.log(humanCount)
+            const response = await fetch("/api/Apartment", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    firstName: firstName,
+                    lastName: lastName,
+                    middleName: middleName,
+                    square: parseInt(square, 10),
+                    humanCount: parseInt(humanCount, 10)
+                })
+            });
+            if (response.ok === true) {
+                const apartment = await response.json();
+                reset();
+                document.querySelector("tbody").append(row(apartment));
+            }
+        }
+        // Изменение квартиры
+        async function EditApartment(apartmentId, newFirstName, newLastName, newMiddleName, newSquare, newHumanCount) {
+            const response = await fetch("api/Apartment", {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    id: parseInt(apartmentId),
+                    firstName: newFirstName,
+                    lastName: newLastName,
+                    middleName: newMiddleName,
+                    square: parseInt(newSquare),
+                    humanCount: newHumanCount,
+                })
+            });
+            if (response.ok === true) {
+                const apartment = await response.json();
+                reset();
+                document.querySelector("tr[data-rowid='" + apartmentId + "']").replaceWith(row(apartment));
+            }
+        }
+        // Удаление квартиры
+        async function DeleteApartment(id) {
+            console.log(id)
+            const response = await fetch("api/Apartment/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                document.querySelector("tr[data-rowid='" + id + "']").remove();
+            }
+        }
+
+        function reset() {
+            const form = document.forms["apartmentForm"];
+            form.reset();
+            form.elements["Id"].value = 0;
+        }
+        
+        function row(apartment) {
+
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", apartment.id);
+
+            const idTd = document.createElement("td");
+            idTd.append(apartment.id);
+            tr.append(idTd);
+
+            const firstNameTd = document.createElement("td");
+            firstNameTd.append(apartment.firstName);
+            tr.append(firstNameTd);
+
+            const lastNameTd = document.createElement("td");
+            lastNameTd.append(apartment.lastName);
+            tr.append(lastNameTd);
+
+            const middleNameTd = document.createElement("td");
+            middleNameTd.append(apartment.middleName);
+            tr.append(middleNameTd);
+
+            const squareTd = document.createElement("td");
+            squareTd.append(apartment.square);
+            tr.append(squareTd);
+
+            const humanCountTd = document.createElement("td");
+            humanCountTd.append(apartment.humanCount);
+            tr.append(humanCountTd);
+
+            const linksTd = document.createElement("td");
+
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", apartment.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Изменить");
+            editLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                GetApartment(apartment.id);
+            });
+            linksTd.append(editLink);
+
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", apartment.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                DeleteApartment(apartment.id);
+            });
+
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+
+            return tr;
+        }
+        
+        document.getElementById("reset").click(function (e) {
+
+            e.preventDefault();
+            reset();
+        })
+
+        document.forms["apartmentForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["apartmentForm"]
+            const id = form.elements["Id"].value;
+            const firstName = form.elements["FirstName"].value;
+            const lastName = form.elements["LastName"].value;
+            const middleName = form.elements["MiddleName"].value;
+            const square = form.elements["Square"].value;
+            const humanCount = form.elements["HumanCount"].value;
+            if (id == 0)
+                CreateApartment(firstName, lastName, middleName, square, humanCount);
+            else
+                EditApartment(id, firstName, lastName, middleName, square, humanCount);
+        });
+        
+        GetApartments();
+
+    </script>
+</body>
+</html>
