@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\UCHEBA\\3kurs\\РПБДИС\\lab6new\\lab6\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.lab6.props",
+      "PackagePath": "build\\lab6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.lab6.props",
+      "PackagePath": "buildMultiTargeting\\lab6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.lab6.props",
+      "PackagePath": "buildTransitive\\lab6.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.lab6.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

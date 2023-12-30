@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Список показаний</h2>
+    <form name="indicationForm">
+        <input type="hidden" name="Id" value="0" />
+        <div class="form-group col-md-5">
+            <label for="Date">Дата:</label>
+            <input class="form-control" name="Date" type="date"/>
+        </div>
+        <div class="form-group col-md-5">
+            <label for="Volume">Объем:</label>
+            <input class="form-control" name="Volume" />
+        </div>
+        <div>
+            <select name="Apartment">
+            </select>
+            <label for="Apartment">Номер квартиры</label>
+        </div>
+        <div>
+            <select name="PaymentType">
+            </select>
+            <label for="PaymentType">Тип платежа</label>
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Сохранить</button>
+            <a id="reset" class="btn btn-primary">Очистить</a>
+        </div>
+    </form>
+    <table class="table table-condensed table-striped col-md-6">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Дата</th>
+                <th>Объем</th>
+                <th>Номер квартиры</th>
+                <th>Тип платежа</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div>2023 © web api lab</div>
+    <script> 
+        // конфертация из формата из формата yyyy-mm-ddT00:00:00 в формат yyyy-MM-dd
+        function convertData(startDate) {
+            let date = new Date(startDate);
+            let year = date.getFullYear();
+            let month = ("0" + (date.getMonth() + 1)).slice(-2);
+            let day = ("0" + date.getDate()).slice(-2);
+            let formattedDate = `${year}-${month}-${day}`;
+
+            return formattedDate; 
+        }
+
+        async function CreateApartmentList() {
+            var selectList = indicationForm.Apartment;
+            const response = await fetch("/api/Apartment", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const apartments = await response.json();
+                apartments.forEach(a => {
+                    var option = document.createElement("option");
+                    option.text = a.id;
+                    option.value = parseInt(a.id);
+                    selectList.appendChild(option)
+                })
+            }
+        }
+
+        async function CreatePaymentTypeList() {
+            var selectList = indicationForm.PaymentType;
+            const response = await fetch("/api/PaymentType", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const paymentTypes = await response.json();
+                paymentTypes.forEach(pt => {
+                    var option = document.createElement("option");
+                    option.text = pt.name;
+                    option.value = parseInt(pt.id);
+                    selectList.appendChild(option)
+                })
+            }
+        }
+
+        // Получение всех показаний
+        async function GetIndications() {
+            // отправляет запрос и получаем ответ
+            const response = await fetch("/api/Indication", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            // если запрос прошел нормально
+            if (response.ok === true) {
+                // получаем данные
+                const indications = await response.json();
+                //console.log(indications);
+                let rows = document.querySelector("tbody");
+                indications.forEach(i => {
+                    // добавляем полученные элементы в таблицу
+                    rows.append(row(i));
+                });
+            }
+        }
+        // Получение одного показания
+        async function GetIndication(id) {
+            const response = await fetch("/api/Indication/" + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const indication = await response.json();
+                //console.log(indication)
+                const form = document.forms["indicationForm"];
+                form.elements["Id"].value = indication.id;
+                form.elements["Date"].value = convertData(indication.date);
+                form.elements["Volume"].value = indication.volume;
+                form.elements["Apartment"].value = indication.apartmentId;
+                form.elements["PaymentType"].value = indication.counter.paymentTypeId;
+            }
+        }
+
+        // Добавление пользователя
+        async function CreateIndication(date, volume, apartmentId, paymentTypeId) {
+            console.log(date)
+            console.log(volume)
+            console.log(apartmentId)
+            console.log(paymentTypeId)
+            const response = await fetch("/api/Indication", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    date: date,
+                    volume: volume,
+                    apartmentId: parseInt(apartmentId, 10),
+                    paymentTypeId: parseInt(paymentTypeId, 10)
+                })
+            });
+            if (response.ok === true) {
+                const indication = await response.json();
+                reset();
+                document.querySelector("tbody").append(row(indication));
+            }
+        }
+        // Изменение показания
+        async function EditIndication(indicationId, date, volume, apartmentId, paymentTypeId) {
+            console.log(paymentTypeId);
+            const response = await fetch("api/Indication", {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    id: parseInt(indicationId),
+                    date: date,
+                    volume: volume,
+                    apartmentId: parseInt(apartmentId, 10),
+                    paymentTypeId: parseInt(paymentTypeId, 10)
+                })
+            });
+            if (response.ok === true) {
+                const indication = await response.json();
+                reset();
+                document.querySelector("tr[data-rowid='" + indicationId + "']").replaceWith(row(indication));
+            }
+        }
+        // Удаление показания
+        async function DeleteIndication(id) {
+            console.log(id)
+            const response = await fetch("api/Indication/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                document.querySelector("tr[data-rowid='" + id + "']").remove();
+            }
+        }
+
+        function reset() {
+            const form = document.forms["indicationForm"];
+            form.reset();
+            form.elements["Id"].value = 0;
+        }
+        
+        function row(indication) {
+
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", indication.id);
+
+            const idTd = document.createElement("td");
+            idTd.append(indication.id);
+            tr.append(idTd);
+
+            const dateTd = document.createElement("td");
+            dateTd.append(convertData(indication.date));
+            tr.append(dateTd);
+
+            const volumeTd = document.createElement("td");
+            volumeTd.append(indication.volume);
+            tr.append(volumeTd);
+
+            const apartmentTd = document.createElement("td");
+            apartmentTd.append(indication.apartmentId);
+            tr.append(apartmentTd);
+
+            const paymentTypeTd = document.createElement("td");
+            paymentTypeTd.append(indication.counter.paymentTypeId);
+            tr.append(paymentTypeTd);
+
+            const linksTd = document.createElement("td");
+
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", indication.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Изменить");
+            editLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                GetIndication(indication.id);
+            });
+            linksTd.append(editLink);
+
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", indication.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                DeleteIndication(indication.id);
+            });
+
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+
+            return tr;
+        }
+        
+        document.getElementById("reset").click(function (e) {
+
+            e.preventDefault();
+            reset();
+        })
+
+        document.forms["indicationForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["indicationForm"]
+            const id = form.elements["Id"].value;
+            const date = form.elements["Date"].value;
+            const volume = form.elements["Volume"].value;
+            const apartmentId = form.elements["Apartment"].value;
+            const paymentTypeId = form.elements["PaymentType"].value;
+            if (id == 0)
+                CreateIndication(date, volume, apartmentId, paymentTypeId);
+            else
+                EditIndication(id, date, volume, apartmentId, paymentTypeId);
+        });
+
+        CreateApartmentList();
+        CreatePaymentTypeList();
+        GetIndications();
+
+    </script>
+</body>
+</html>
